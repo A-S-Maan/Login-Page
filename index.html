@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <form>
+            <h2 class="h2">Create Your Account</h2>
+            <div>
+                <input type="text" id="uname" name="uname" class="uname" placeholder="Username" maxlength="25" required>
+            </div>
+        
+            <br>
+        
+            <div>
+                <input type="password" id="pass" name="pass" class="pass" placeholder="Password" minlength="8" maxlength="25" required>
+            </div>
+            
+            <br>
+            
+            <div class="GNDR">
+                <label for="male" class="gndr">Male</label>
+                <input type="radio" id="male" name="gndr" class="gndr" required>
+
+                <label for="female" class="gndr">Female</label>
+                <input type="radio" id="female" name="gndr" class="gndr">
+            </div>
+                        
+            <br>
+            
+            <div>
+                <button type="submit" id="btn" name="btn" formaction="main.html" class="btn">Log in</button>
+            </div>
+        </form>
+    </div>   
+</body>
+</html>
