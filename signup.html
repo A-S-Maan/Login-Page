@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="styles_up.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="form">
+        <form>
+            <h2 class="h2">Create Your Account</h2>
+            <div class="UNAME">
+                <input type="text" id="uname" name="uname" class="uname" placeholder="Username" maxlength="25" required>
+                <i class='bx bx-user'></i>      
+            </div>
+        
+            <br>
+        
+            <div class="PASS">
+                <input type="password" id="pass" name="pass" class="pass" placeholder="Password" minlength="8" maxlength="25" required>
+                <i class='bx bx-lock-alt' ></i>
+            
+            <br>
+            
+            <div class="REM">
+                <label for="male" class="gndr">Male</label>
+                <input type="radio" id="male" name="gndr" class="gndr">
+                <label for="female" class="gndr">Female</label>
+                <input type="radio" id="female" name="gndr" class="gndr">
+            </div>
+                        
+            <br>
+            
+            <div>
+                <button type="submit" id="btn" name="btn" formaction="main.html" class="btn">Sign Up</button>
+            </div>
+
+            <p class="sin">Already Have an Account? <a href="index.html">Sign In</a></p>
+
+        </form>
+    </div>   
+</body>
+</html>

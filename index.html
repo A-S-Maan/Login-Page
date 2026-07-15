@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_in.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="form">
         <form>
-            <h2 class="h2">Create Your Account</h2>
-            <div>
+            <h2 class="h2">Sign In</h2>
+            <div class="UNAME">
                 <input type="text" id="uname" name="uname" class="uname" placeholder="Username" maxlength="25" required>
+                <i class='bx bx-user'></i>
             </div>
         
             <br>
         
-            <div>
+            <div class="PASS">
                 <input type="password" id="pass" name="pass" class="pass" placeholder="Password" minlength="8" maxlength="25" required>
+                <i class='bx bx-lock-alt' ></i>
             </div>
             
             <br>
             
-            <div class="GNDR">
-                <label for="male" class="gndr">Male</label>
-                <input type="radio" id="male" name="gndr" class="gndr" required>
-
-                <label for="female" class="gndr">Female</label>
-                <input type="radio" id="female" name="gndr" class="gndr">
+            <div class="REM">
+                <label for="rem" class="rem">Remember Me</label>
+                <input type="checkbox" id="rem" name="rem" class="rem">
             </div>
                         
             <br>
             
             <div>
-                <button type="submit" id="btn" name="btn" formaction="main.html" class="btn">Log in</button>
+                <button type="submit" id="btn" name="btn" formaction="main.html" class="btn">Sign In</button>
             </div>
+
+            <p class="sup">Don't Have An Account? <a href="signup.html">Sign Up</a></p>
+
         </form>
     </div>   
 </body>
