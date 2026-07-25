@@ -16,6 +16,7 @@ body{
     backdrop-filter: blur(10px);
     padding-top: 40px;
     padding-bottom: 49px; 
+    position: fixed;
 }
 .h2{
     padding-bottom: 20px;
